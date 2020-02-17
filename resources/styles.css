@@ -1,0 +1,464 @@
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font_righteous {
+    font-family: 'Righteous', cursive;
+}
+
+.bck_black {
+    background: #3c3c3c;
+}
+.bck_white {
+    background: #ffffff;
+}
+.bck_red {
+    background: #ff4800;
+}
+.bck_yellow {
+    background: #ffa800;
+}
+
+.iconImage {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.center_wrapper {
+    width: 900px;
+    margin:0 auto;
+}
+
+.discount-center_wrapper {
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)),
+    url('../../src/resources/images/banner-1.jpg');
+    background-repeat: no-repeat;
+}
+
+.pricing_section {
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgba(0, 5.1, 10.2, 0.9), rgba(0, 5.1, 10.2, 0.70)),
+    url('../../src/resources/images/banner-2.jpg');
+}
+
+/*====================
+        HEADER
+======================*/
+
+
+header {
+    padding:10px 0px;
+    transition: all 300ms ease-in;
+}
+
+header .header_logo {
+    flex-grow: 1;
+}
+header .header_logo_venue {
+    font-size: 40px;
+}
+
+header .header_logo_title {
+    text-transform: uppercase;
+}
+
+/*====================
+        FOOTER
+======================*/
+.footer_logo_venue {
+    font-size: 52px;
+}
+
+footer {
+    padding:40px 0px;
+    text-align: center;
+    font-size: 60px;
+    color:#ffffff;
+    background-image: linear-gradient(to bottom, rgba(0, 5.1, 10.2, 0.95), rgba(0, 5.1, 10.2, 0.70)),
+    url('../../src/resources/images/footer-banner.jpg');
+}
+
+footer .footer_copyright {
+    font-size: 13px;
+    padding-top: 7px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/*====================
+        CARROUSEL
+======================*/
+
+
+.carrousel_wrapper {
+    height:700px;
+    overflow: hidden;
+}
+
+.carrousel_image {
+    
+    background-size: cover !important;
+}
+
+.artist_name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 160px;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   
+    font-family: 'Righteous', cursive;
+}
+
+.artist_name .wrapper {
+    height: 121px;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 21px 70px 0px 70px;
+    text-transform: uppercase;
+}
+
+/*====================
+        COUNTDOWN
+======================*/
+
+.countdown_wrapper {
+    position:absolute;
+    bottom: 0px;
+    color:#ffffff;
+}
+
+.countdown_wrapper .countdown_top {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
+    url('../resources//images/count-down-image.jpg');
+    font-size: 19px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+}
+
+.countdown_wrapper .countdown_bottom {
+    display: flex;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
+    url('../resources//images/count-down-image.jpg');
+    padding: 10px 20px;
+}
+
+.countdown_wrapper .countdown_time {
+    font-size: 70px;
+    margin-right: 14px;
+    padding-right: 49px;
+}
+.countdown_wrapper .countdown_item:last-child .countdown_time{
+    border:none;
+}
+
+.countdown_wrapper .countdown_tag {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 7px;
+}
+
+/*====================
+        VENUE NFO
+======================*/
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+  }
+  .images,
+  .text-area {
+  }
+  .text-area {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .images {
+    width: 100%;
+    display: flex;
+  }
+  
+  .image-background {
+    display: inline-block;
+    height: 570px;
+    width: 100%;
+    box-shadow: inset -18px 0 15px -15px #2b2b2b;
+    background-position: center;
+    background-size: cover;
+  }
+  .image-link-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 33.33%;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    background: #303030;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+  }
+  
+  .image-1 {
+    background-image: url("https://arma3.com/assets/img/wallpapers/karts/2/Arma-3-Karts_wallpaper_1280x1024.jpg");
+  }
+  .image-2 {
+    background-image: url("https://arma3.com/assets/img/wallpapers/nexus/2/Arma%203%20Nexus_wallpaper_1280x1024.jpg");
+  }
+  .image-3 {
+    background-image: url("https://arma3.com/assets/img/wallpapers/jets/2/Arma%203%20Jets_wallpaper_1080x1920.jpg");
+    box-shadow: none;
+  }
+  
+  .title {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+  
+    font-family: Arial;
+  
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 4px solid red;
+    padding-bottom: 5px;
+  }
+  
+/*====================
+        HIGHLIGHTS
+======================*/
+
+.highlight_wrapper h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#000;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.highlight_wrapper .highlight_description {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 30px 0px;
+}
+
+.discount_wrapper {
+    display: flex;
+    padding: 70px 90px;
+}
+
+.discount_wrapper .discount_porcentage {
+    padding-right: 100px;
+}
+
+.discount_wrapper .discount_porcentage span:nth-child(1) {
+    color: #ff4800;
+    font-size: 125px;
+    font-weight: 400;
+    display: block;
+    line-height: 120px;
+}
+
+.discount_wrapper .discount_porcentage span:nth-child(2) {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    display: block;
+}
+
+
+.discount_wrapper .discount_description h3 {
+    font-size: 34px;
+    margin: 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.discount_wrapper .discount_description p { 
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/*====================
+        PRICING
+======================*/
+
+.text-center {
+	text-align: center;
+}
+
+.priceing-heading {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+
+.pricing-box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0 85px 0;
+}
+
+.pricing-box {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	flex: 1;
+	padding: 0 30px 30px;
+	margin: 2%;
+	min-width: 250px;
+	max-width: 350px;
+}
+.pricing-box:hover {
+    position: relative; 
+    top: -10px;
+}
+
+.pricing-box h5 {
+	text-transform: uppercase;
+}
+
+.price {
+	margin: 24px 0;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.price sub,
+.price sup {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.features-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.features-list li {
+	font-weight: 100;
+	padding: 12px 0;
+	font-weight: 100;
+}
+
+.features-list li:not(:last-of-type) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+	border-radius: 25px;
+	border: none;
+	background-color: #ec1362;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 15px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+	box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+	transform: translateY(-3px);
+}
+
+.pricing-box-bg-image1 {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.70)),
+    url('https://arma3.com/assets/img/screenshots/large/arma3_screenshot_28.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+}
+.pricing-box-bg-image2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.70)),
+    url('https://arma3.com/assets/img/screenshots/large/arma3_screenshot_21.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+}
+.pricing-box-bg-image3 {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.70)),
+    url('https://arma3.com/assets/img/screenshots/large/arma3_screenshot_16.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+}
+
+.pricing-box-bg-image1 .features-list li {
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+.pricing-box-bg-image2 .features-list li {
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+.pricing-box-bg-image3 .features-list li {
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+.pricing-box-bg-image1 .btn-primary {
+	background-color: #ff4800;
+    color: #fff;
+    font-weight: bold;
+}
+.pricing-box-bg-image2 .btn-primary {
+	background-color: #ff4800;
+    color: #fff;
+    font-weight: bold;
+}
+.pricing-box-bg-image3 .btn-primary {
+	background-color: #ff4800;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-section {
+    padding: 50px;
+    background-color: #000;
+}
+
+
+/*====================
+        LOCATION    
+======================*/
+
+.location_wrapper {
+    position:relative;
+}
+
+.location_tag {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.location_tag div{
+    background: #2c2c2c;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 220px;
+    margin: 0 auto;
+    font-size: 29px;
+    padding: 15px 20px;
+    text-align: center;
+}
